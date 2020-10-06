@@ -1,0 +1,217 @@
+/* Etiquetas */
+* {
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: dosismedium, Arial, Helvetica, sans-serif;
+	width: 1185px;
+	margin: auto;
+	/* background: rgba(216,227,230,1);
+	background: -moz-linear-gradient(-45deg, rgba(216,227,230,1) 0%, rgba(102,170,189,1) 41%, rgba(47,94,107,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(216,227,230,1)), color-stop(41%, rgba(102,170,189,1)), color-stop(100%, rgba(47,94,107,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(216,227,230,1) 0%, rgba(102,170,189,1) 41%, rgba(47,94,107,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(216,227,230,1) 0%, rgba(102,170,189,1) 41%, rgba(47,94,107,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(216,227,230,1) 0%, rgba(102,170,189,1) 41%, rgba(47,94,107,1) 100%);
+	background: linear-gradient(135deg, rgba(216,227,230,1) 0%, rgba(102,170,189,1) 41%, rgba(47,94,107,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e3e6', endColorstr='#2f5e6b', GradientType=1 );  */
+	
+}
+h1 {
+	font-family: arial;
+	border: rgba(0, 0, 0, 0.62) solid 2px;
+	font-size: 50px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.56);
+	-webkit-box-shadow: 26px 12px 2px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 26px 12px 24px 0px rgba(0,0,0,0.3);
+	box-shadow: 26px 12px 24px 0px rgba(0,0,0,0.3);
+}
+h2 {
+	font-family: arial;
+	text-align: center;
+	font-size: 40px;
+}
+footer {
+	text-align: center;
+	border: rgba(0, 0, 0, 0.62) solid 2px;
+    color: #000a56;
+    background-color: rgb(0, 82, 140);
+    margin-bottom: 20px;
+    -webkit-box-shadow: 26px 23px 24px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 26px 23px 24px 0px rgba(0,0,0,0.3);
+	box-shadow: 26px 23px 24px 0px rgba(0,0,0,0.3);
+}
+/*Clases*/
+.EncabezadoDerecha {
+	float: right;
+	width: 70%;
+	margin-top: 0px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table
+}
+.LiEncabezado {
+	font-weight:bold
+}
+.TituloLiEncabezado {
+	padding-bottom: 40px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.EstiloDeLosBloques {
+	font-family: sans-serif;
+	margin:20px 0px;
+	border: rgba(0, 0, 0, 0.62) solid 2px;
+	padding: 10px;
+	background-color:rgba(34, 150, 185, 0.137);
+	-webkit-box-shadow: 26px 12px 24px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 26px 12px 24px 0px rgba(0,0,0,0.3);
+	box-shadow: 26px 12px 24px 0px rgba(0,0,0,0.3);
+	
+}
+.SubtituloBloques {
+	border-bottom: #8e8e8e solid 1px;
+	border-radius: 5%;
+    color: rgb(0, 99, 148);
+    margin-left: 120px;
+}
+.ParrafoBloques {
+	margin: 20px;
+	text-indent: 30px;
+	word-spacing: 2px;
+	line-height: 20px;
+}
+.BloqueHabilidades{
+	display:flex;
+}
+.ParrafoHabilidades{
+	margin-left:95px;
+	font-weight: bold;
+}
+.menu-fixed {
+	position: fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	max-width: 1161px;
+	background-color:rgba(154, 115, 74, 0.55);
+
+}
+.hobbies {
+	margin-left: 160px;
+	float: left;
+}
+.hobbies {
+	border-radius: 0px 0px 200px 200px;
+	-moz-border-radius: 0px 0px 200px 200px;
+	-webkit-border-radius: 0px 0px 200px 200px;
+	border: 5px outset rgb(137, 145, 151)
+}
+/*Etiquetas con clase*/
+ul.EncabezadoDerecha li {
+	text-indent: 20px;
+	margin-bottom: 2em;
+}
+h2.TituloBloques {
+	font-family: arial;
+	font-size: 30px;
+	color:rgb(38, 146, 146);
+	}
+/* último hijo de una lista desordenada con clase.*/
+ul.EncabezadoDerecha li:last-child{
+	margin-bottom: 0px;
+}
+/* un parrafo descendiente de una clase*/
+.hobbies p {
+	text-align: center;
+	font-weight: bold;	
+}
+/*etiquetas con pseudo clases*/
+#menu:hover {
+	border: #000000 solid 2px;
+}
+a:hover {
+	font-weight: bold;
+}
+footer:hover {
+	text-align: center;
+	border: #000000 solid 2px;
+    color: white;
+    background-color: rgb(0, 82, 140);
+    margin-bottom: 20px;
+    -webkit-box-shadow: 26px 23px 24px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 26px 23px 24px 0px rgba(0,0,0,0.3);
+	box-shadow: 26px 23px 24px 0px rgba(0,0,0,0.3);
+}
+.EstiloDeLosBloques:hover {
+	font-family: sans-serif;
+	margin:20px 0px;
+	border: #000000 solid 2px;
+	padding: 10px;
+}
+h1:hover {
+	font-family: arial;
+	border: #000000 solid 2px;
+	font-size: 50px;
+	text-align: center;
+}
+.hobbies:hover {
+	border-radius: 0px 0px 200px 200px;
+	-moz-border-radius: 0px 0px 200px 200px;
+	-webkit-border-radius: 0px 0px 200px 200px;
+	border: 5px inset rgb(137, 145, 151)
+}
+/* etiqueta a hija de una lista y que a su vez es hija de una lista desordenada con id. */
+ul#menu li a {
+	font-size:20px;
+	text-decoration: none;
+	color: #000000;
+	width: 100%;
+	height: 100%;
+}
+/* lista desordenada con id menu. */
+ul#menu {
+	display:flex;
+	list-style: none;
+	border: rgba(0, 0, 0, 0.62) solid 2px ;
+	-webkit-box-shadow: 26px 12px 24px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 26px 12px 24px 0px rgba(0,0,0,0.3);
+	box-shadow: 26px 12px 24px 0px rgba(0,0,0,0.3);
+	max-width: 1240px;
+	padding: 0;
+	margin:0;
+}
+/* lista hija de una lista desordenada con id menu.*/
+ul#menu li {
+	display: flex;
+	text-align: center;
+	width: 100%;
+	border-right: black solid 1px;
+	background-color: rgba(255, 255, 255, 0.56);
+
+}
+#menu:hover {
+	border: #000000 solid 2px;
+}
+/* Estilo de la lista desordenada dentro de los estilos de bloques.*/
+div.EstiloDeLosBloques ul {
+	text-indent: 30px;
+	list-style: none;
+	padding: 10px 25px;
+}
+.EncabezadoIzquierda {
+	float: left;
+	margin-top: 10%;
+	width: 30%;
+}
+div.EncabezadoIzquierda img {
+	border: black solid 3px;
+	width: 100%;
+}
