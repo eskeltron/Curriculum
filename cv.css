@@ -1,6 +1,7 @@
 /* Etiquetas */
 * {
 	box-sizing: border-box;
+	transition-delay: 1s;
 }
 
 html{
@@ -11,8 +12,8 @@ body {
 	font-family: dosismedium, Arial, Helvetica, sans-serif;
 	width: 1185px;
 	margin: auto;
-	/* background: rgba(216,227,230,1);
-	background: -moz-linear-gradient(-45deg, rgba(216,227,230,1) 0%, rgba(102,170,189,1) 41%, rgba(47,94,107,1) 100%);
+	background: rgb(215, 224, 226);
+	/* background: -moz-linear-gradient(-45deg, rgba(216,227,230,1) 0%, rgba(102,170,189,1) 41%, rgba(47,94,107,1) 100%);
 	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(216,227,230,1)), color-stop(41%, rgba(102,170,189,1)), color-stop(100%, rgba(47,94,107,1)));
 	background: -webkit-linear-gradient(-45deg, rgba(216,227,230,1) 0%, rgba(102,170,189,1) 41%, rgba(47,94,107,1) 100%);
 	background: -o-linear-gradient(-45deg, rgba(216,227,230,1) 0%, rgba(102,170,189,1) 41%, rgba(47,94,107,1) 100%);
@@ -214,4 +215,22 @@ div.EstiloDeLosBloques ul {
 div.EncabezadoIzquierda img {
 	border: black solid 3px;
 	width: 100%;
+}
+
+div.containerLenguaje{
+	position: fixed;
+	right:0;
+	top:0;
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+	padding-right: 10px;
+	height:50px;
+}
+
+button.botonLenguaje{
+	width:60px;
+	background: rgb(215, 224, 226);
+	border:1px solid black;
+	cursor:pointer;
 }

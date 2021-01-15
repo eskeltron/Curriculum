@@ -2,20 +2,29 @@
 <html>
 
 <head>
-    <title>Curriculum Vitae - Nicolás Gomez</title>
+    <title class="esp">Curriculum Vitae - Nicolás Gomez</title>
+    <title class="eng">Resume - Nicolás Gomez</title>
     <meta charset="utf-8">
-    <script src="jquery.min.js"></script>
-    <script src="jquery.sticky.js"></script>
+    <!-- <script src="jquery.min.js"></script>
+    <script src="jquery.sticky.js"></script> -->
     <link rel="shortcut icon" type="image/x-icon" href="cv.ico">
     <link rel="stylesheet" type="text/css" href="cv.css">
 </head>
 
 <body>
+    <!-- Language -->
+    <div class="containerLenguaje">
+        <button class="botonLenguaje" id="cambiarAEspaniol">
+            Esp
+        </button>
+        <button class="botonLenguaje" id="cambiarAIngles">
+            Eng
+        </button>
+    </div>
     <!-- HEADER -->
     <header>
-        <h1 class="EstiloDeLosBloques">
-            Curriculum Vitae
-        </h1>
+        <h1 class="EstiloDeLosBloques esp">Curriculum Vitae</h1>
+        <h1 class="EstiloDeLosBloques eng">Resume</h1>
     </header>
     <!-- NAVEGATION -->
     <!-- <nav>
@@ -34,54 +43,78 @@
         <div class="EncabezadoIzquierda clearfix">
             <img src="fotocv.jpg">
         </div>
-        <h3 class="EncabezadoDerecha TituloLiEncabezado">Datos personales</h3>
+        <h3 class="EncabezadoDerecha TituloLiEncabezado esp">Datos personales</h3>
+        <h3 class="EncabezadoDerecha TituloLiEncabezado eng">Personal information</h3>
         <ul class="EncabezadoDerecha">
-            <li><span class="LiEncabezado"> Nombre:</span> Nicolás Norberto Gomez</li>
-            <li><span class="LiEncabezado">Edad:</span> 21</li>
-            <li><span class="LiEncabezado">Estado civil:</span> Soltero</li>
-            <li><span class="LiEncabezado">Ubicación:</span> Lanús Éste</li>
-            <li><span class="LiEncabezado">Email:</span> nicolas_gomez09@hotmail.com</li>
-            <li><span class="LiEncabezado">Celular:</span> 11 6405-4212</li>
-
+            <li class="esp"><span class="LiEncabezado">Nombre:</span> Nicolás Norberto Gomez</li>
+            <li class="esp"><span class="LiEncabezado">Edad:</span> 21</li>
+            <li class="esp"><span class="LiEncabezado">Estado civil:</span> Soltero</li>
+            <li class="esp"><span class="LiEncabezado">Ubicación:</span> Lanús Éste</li>
+            <li class="esp"><span class="LiEncabezado">Email:</span> nicolas_gomez09@hotmail.com</li>
+            <li class="esp"><span class="LiEncabezado">Celular:</span> 11 6405-4212</li>
+            <li class="eng"><span class="LiEncabezado">Name:</span> Nicolás Norberto Gomez</li>
+            <li class="eng"><span class="LiEncabezado">Age:</span> 21</li>
+            <li class="eng"><span class="LiEncabezado">Civil status:</span> Single</li>
+            <li class="eng"><span class="LiEncabezado">Location:</span> Lanús Éste</li>
+            <li class="eng"><span class="LiEncabezado">Email:</span> nicolas_gomez09@hotmail.com</li>
+            <li class="eng"><span class="LiEncabezado">Phone:</span> 11 6405-4212</li>
         </ul>
     </div>
 
     <div class="EstiloDeLosBloques" id="Presentacion">
-        <h2 class="TituloBloques">Presentación</h2>
-        <p class="ParrafoBloques presentacion">Me considero una persona creativa, sociable y responsable. Actualmente me encuentro terminando el segundo año en la carrera Lic. en Sistemas en la UNLa. Desde chico siempre me interesaron las computadoras y la tecnología en general, durante la
-            adolescencia me dedique a reparar/armar computadoras. En la actualidad, me gusta dedicar mi tiempo libre a seguir aprendiendo acerca del desarrollo de software, especialmente web. Algo que planeo mejorar a futuro es el manejo del idioma Inglés,
-            considero que para el área en la cual me encuentro desarrollandome es fundamental. Busco incorporarme en una empresa donde pueda aplicar mis conocimientos y fortalezas, mejorar estos y también reforzar mis debilidades.
+        <h2 class="TituloBloques esp">Presentación</h2>
+        <h2 class="TituloBloques eng">Presentation</h2>
+        <p class="ParrafoBloques presentacion esp">Me considero una persona creativa, sociable y responsable. Actualmente me encuentro comenzando el tercer año en la carrera Lic. en Sistemas en la UNLa. Desde chico siempre me interesaron las computadoras y la tecnología en general, durante la
+            adolescencia me dedique a reparar/armar computadoras. En la actualidad, me gusta dedicar mi tiempo libre a seguir aprendiendo acerca del desarrollo de software, especialmente web. También, gasto tiempo diario en continuar aprendiendo y mejorando mi manejo sobre el idioma inglés, el cuál considero muy importante para el área en la cual me encuentro desarrollandome es fundamental. En la empresa donde me incorpore deseo aplicas mis conocimientos y fortalezas, mejorar estos y reforzar mis debilidades.
+        </p>
+        <p class="ParrafoBloques presentacion eng">I consider myself creative, sociable and responsible person. I'm starting the thrid year in the career bachelor information systems at university of Lanus. Since I was a kid I interested in computers and general technology, during my adolescence I assembled a few computers for my acquaintances. Nowadays I like to spend my time learning about software development, especially web. Also, I spend time daily to continue learning and improve my management about English idiom, I consider that it is very important for IT ecosystem. In the company where I'll join I want to apply my knowledge and strengths, improve these and strengthen my weaknesses.
         </p>
     </div>
 
 
     <div class="EstiloDeLosBloques" id="FormacionAcademica">
-        <h2 class="TituloBloques">Formación Académica</h2>
+        <h2 class="TituloBloques esp">Formación Académica</h2>
+        <h2 class="TituloBloques eng">Academic Formation</h2>
 
-        <h3 class="SubtituloBloques">Licenciatura en Sistemas</h3>
-        <h4 class="ParrafoBloques">Año 2019.</h4>
-        <h5 class="ParrafoBloques">Lugar: Universidad Nacional de Lanús. </h5>
-        <h5 class="ParrafoBloques">Estado: En curso.</h5>
-        <p class="ParrafoBloques">Me encuentro cursando el segundo año de la carrera, en el primer año aprobé todas las materias. Planeo terminar el plan de estudios en el tiempo estimado (5 años).</p>
+        <h3 class="SubtituloBloques esp">Licenciatura en Sistemas</h3>
+        <h4 class="ParrafoBloques esp">2019 - presente</h4>
+        <h5 class="ParrafoBloques esp">Lugar: Universidad Nacional de Lanús. </h5>
+        <h5 class="ParrafoBloques esp">Estado: En curso.</h5>
+        <p class="ParrafoBloques esp">Me encuentro comenzando el tercer año de la carrera. Planeo terminar el plan de estudios en el tiempo estimado (5 años).</p>
+        <h3 class="SubtituloBloques eng">Bachelor information systems</h3>
+        <h4 class="ParrafoBloques eng">2019 - present</h4>
+        <h5 class="ParrafoBloques eng">Lugar: Universidad Nacional de Lanús. </h5>
+        <h5 class="ParrafoBloques eng">Status: In progress.</h5>
+        <p class="ParrafoBloques eng">I'm starting the third year of the career. I plan finish it in the estimated time (5 years).</p>
 
-        <h3 class="SubtituloBloques">Técnico Electrónico</h3>
-        <h4 class="ParrafoBloques">Año: 2016 hasta 2018.</h4>
-        <h5 class="ParrafoBloques">Lugar: Escuela Técnica N° 14 D.E 5° "Libertad".</h5>
-        <h5 class="ParrafoBloques">Estado: Finalizado.</h5>
-        <p class="ParrafoBloques">En los últimos 2 años aprendí sobre la manipulación de sistemas embebidos en Arduino (En el cuál se realizaban todos los proyectos expuestos en las ferias de ciencias).</p>
-        <p class="ParrafoBloques">Cosas a destacar:</p>
+        <h3 class="SubtituloBloques esp">Técnico Electrónico</h3>
+        <h3 class="SubtituloBloques eng">Electronic technician</h3>
+        <h4 class="ParrafoBloques">2016 - 2018.</h4>
+        <h5 class="ParrafoBloques esp">Lugar: Escuela Técnica N° 14 D.E 5° "Libertad".</h5>
+        <h5 class="ParrafoBloques eng">Location: Escuela Técnica N° 14 D.E 5° "Libertad".</h5>
+        <h5 class="ParrafoBloques esp">Estado: Finalizado.</h5>
+        <h5 class="ParrafoBloques eng">Status: Finished.</h5>
+        <p class="ParrafoBloques esp">En los últimos 2 años aprendí sobre la manipulación de sistemas embebidos en Arduino (En el cuál se realizaban todos los proyectos expuestos en las ferias de ciencias).</p>
+        <p class="ParrafoBloques eng">In the lastest 2 years I learn about manipulation of embebed systems in Arduino.</p>
+        <p class="ParrafoBloques esp">Cosas a destacar:</p>
+        <p class="ParrafoBloques eng">Things to highlight:</p>
         <ul>
-            <li type="circle">Promedio de último año: 8,33</li>
-            <li type="circle">Mención especial en la feria nacional de educación educativa 2017.</li>
-            <li type="circle">Segundo puesto en las Olimpiadas nacionales de Electrónica 2018.</li>
+            <li class="esp" type="circle">Promedio de último año: 8,33</li>
+            <li class="eng" type="circle">Last year average: 8,33</li>
+            <li class="esp" type="circle">Mención especial en la feria nacional de educación educativa 2017.</li>
+            <li class="eng" type="circle">Special mention in the national fair of educación educativa 2017.</li>
+            <li class="esp" type="circle">Segundo puesto en las Olimpiadas nacionales de Electrónica 2018.</li>
+            <li class="eng" type="circle">Second place in the 2018 national electronic olympic</li>
         </ul>
 
 
     </div>
 
     <div class="EstiloDeLosBloques" id="Habilidades">
-        <h2 class="TituloBloques">Habilidades</h2>
-        <h3 class="SubtituloBloques">Lenguajes de programación</h3>
+        <h2 class="TituloBloques esp">Habilidades</h2>
+        <h2 class="TituloBloques eng">Skills</h2>
+        <h3 class="SubtituloBloques esp">Lenguajes de programación</h3>
+        <h3 class="SubtituloBloques eng">Programming languages</h3>
         <div class="BloqueHabilidades">
             <p class="ParrafoHabilidades">Apex.</p>
             <p class="ParrafoHabilidades">C.</p>
@@ -91,106 +124,161 @@
             <p class="ParrafoHabilidades">Javascript.</p>
             <p class="ParrafoHabilidades">Python.</p>
         </div>
-        <h3 class="SubtituloBloques">Base de datos</h3>
+        <h3 class="SubtituloBloques esp">Base de datos</h3>
+        <h3 class="SubtituloBloques eng">Databases</h3>
         <div class="BloqueHabilidades">
             <p class="ParrafoHabilidades">MongoDB.</p>
             <p class="ParrafoHabilidades">SQL Server.</p>
             <p class="ParrafoHabilidades">MySQL.</p>
         </div>
-        <h3 class="SubtituloBloques">Controlador de versiones</h3>
+        <h3 class="SubtituloBloques esp">Controlador de versiones</h3>
+        <h3 class="SubtituloBloques eng">Version controller</h3>
         <div class="BloqueHabilidades">
             <p class="ParrafoHabilidades">Git</p>
         </div>
-        <h3 class="SubtituloBloques">Idiomas</h3>
-        <p class="ParrafoHabilidades">Inglés.</p>
-        <div class="BloqueHabilidades">
-            <h5 class="ParrafoHabilidades">Escrito: Intermedio.</h5>
-            <h5 class="ParrafoHabilidades">Oral: Básico.</h5>
+        <h3 class="SubtituloBloques esp">Idiomas</h3>
+        <h3 class="SubtituloBloques eng">Languages</h3>
+        <p class="ParrafoHabilidades esp">Inglés.</p>
+        <div class="BloqueHabilidades esp">
+            <h5 class="ParrafoHabilidades esp">Escrito: Intermedio.</h5>
+            <h5 class="ParrafoHabilidades esp">Oral: Básico.</h5>
+        </div>
+        <p class="ParrafoHabilidades esp">Español.</p>
+        <div class="BloqueHabilidades esp">
+            <h5 class="ParrafoHabilidades esp">Escrito: Nativo.</h5>
+            <h5 class="ParrafoHabilidades esp">Oral: Nativo.</h5>
+        </div>
+        <p class="ParrafoHabilidades eng">English.</p>
+        <div class="BloqueHabilidades eng">
+            <h5 class="ParrafoHabilidades eng">Write/Read: Intermediate.</h5>
+            <h5 class="ParrafoHabilidades eng">Speak/Listen: Basic.</h5>
+        </div>
+        <p class="ParrafoHabilidades eng">Spanish.</p>
+        <div class="BloqueHabilidades eng">
+            <h5 class="ParrafoHabilidades eng">Write/Read: Native.</h5>
+            <h5 class="ParrafoHabilidades eng">Speak/Listen: Native.</h5>
         </div>
     </div>
 
     <div class="EstiloDeLosBloques">
-        <h2 class="TituloBloques">Trabajos personales</h2>
-        <p class="ParrafoBloques">
+        <h2 class="TituloBloques eng">Trabajos personales</h2>
+        <h2 class="TituloBloques esp">Personal jobs</h2>
+        <p class="ParrafoBloques esp">
             Poseo un repositorio en github en el cual subo proyectos personales y practicas.
             <br>
             <br> Repositorio: https://www.github.com/eskeltron
             <br>
             <br>Piedra papel o tijera online: <a href="https://piedra-papel-tijera.herokuapp.com/" style="text-decoration: none;">piedra-papel-tijera.herokuapp.com</a> 
+        <p class="ParrafoBloques eng">
+            I have a git repository where I upload projects and practices.
+            <br>
+            <br> Repository: https://www.github.com/eskeltron
+            <br>
+            <br>Paper, rock or scissor online: <a href="https://piedra-papel-tijera.herokuapp.com/" style="text-decoration: none;">piedra-papel-tijera.herokuapp.com</a> 
     </div>
 
     <div class="EstiloDeLosBloques" id="Cursos">
-        <h2 class="TituloBloques">Cursos</h2>
+        <h2 class="TituloBloques esp">Cursos</h2>
+        <h2 class="TituloBloques eng">Courses</h2>
+
         <h3 class="SubtituloBloques">Arquitectura avanzada en Node js</h3>
-        <h4 class="ParrafoBloques">Año 2020.</h4>
-        <h5 class="ParrafoBloques">Lugar: Educación IT.</h5>
-        <h5 class="ParrafoBloques">Duración: Agosto - Septiembre.</h5>
-        <p class="ParrafoBloques">Curso práctico donde aprendí a diseñar complejas aplicaciones corporativas en Node.JS, manejar grandes volúmenes de datos, escalabilidad con AWS.</p>
+        <h4 class="ParrafoBloques">2020.</h4>
+        <h5 class="ParrafoBloques esp">Lugar: Educación IT.</h5>
+        <h5 class="ParrafoBloques eng">Location: Educación IT.</h5>
+        <h5 class="ParrafoBloques esp">Duración: Agosto - Septiembre.</h5>
+        <h5 class="ParrafoBloques eng">Duration: August - September.</h5>
+        <p class="ParrafoBloques esp">Curso práctico donde aprendí a diseñar complejas aplicaciones corporativas en Node.JS, manejar grandes volúmenes de datos, escalabilidad con AWS.</p>
+        <p class="ParrafoBloques eng">Practical course where I learned to design complex corporate applications in Node.JS</p>
 
         <h3 class="SubtituloBloques">Maquetación Web: HTML 5 y CSS</h3>
-        <h4 class="ParrafoBloques">Año 2019.</h4>
-        <h5 class="ParrafoBloques">Lugar: Educación IT.</h5>
-        <h5 class="ParrafoBloques">Duración: Diciembre - Febrero.</h5>
-        <p class="ParrafoBloques">Curso práctico donde incursioné en el mundo front-end. Propiedades avanzadas de CSS3 y correcta implementación semantica de HTML5.</p>
+        <h4 class="ParrafoBloques">2019.</h4>
+        <h5 class="ParrafoBloques esp">Lugar: Educación IT.</h5>
+        <h5 class="ParrafoBloques eng">Location: Educación IT.</h5>
+        <h5 class="ParrafoBloques esp">Duración: Diciembre - Febrero.</h5>
+        <h5 class="ParrafoBloques eng">Duration: December - February</h5>
+        <p class="ParrafoBloques esp">Curso práctico donde incursioné en el mundo front-end. Propiedades avanzadas de CSS3 y correcta implementación semantica de HTML5.</p>
+        <p class="ParrafoBloques eng">Practical course where I had my first close up with the front-end world. I learned about CSS3 advanced properties and correct implementation HTML5 semantic.</p>
 
         <h3 class="SubtituloBloques">Node.js y Mongo DB</h3>
-        <h4 class="ParrafoBloques">Año 2019.</h4>
-        <h5 class="ParrafoBloques">Lugar: Educación IT.</h5>
-        <h5 class="ParrafoBloques">Duración: Noviembre - Diciembre.</h5>
-        <p class="ParrafoBloques">Curso práctico donde desarrollé aplicaciones básicas con stack MERN.</p>
+        <h4 class="ParrafoBloques">2019.</h4>
+        <h5 class="ParrafoBloques esp">Lugar: Educación IT.</h5>
+        <h5 class="ParrafoBloques eng">Location: Educación IT.</h5>
+        <h5 class="ParrafoBloques esp">Duración: Noviembre - Diciembre.</h5>
+        <h5 class="ParrafoBloques eng">Duration: November - December.</h5>
+        <p class="ParrafoBloques esp">Curso práctico donde desarrollé aplicaciones básicas con stack MERN.</p>
+        <p class="ParrafoBloques eng">Practical course where I developed basic applications using stack MERN.</p>
 
 
         <h3 class="SubtituloBloques">Codo a codo</h3>
-        <h4 class="ParrafoBloques">Año 2019.</h4>
-        <h5 class="ParrafoBloques">Lugar: Gobierno de la ciudad.</h5>
-        <h5 class="ParrafoBloques">Duración: Marzo - Diciembre.</h5>
-        <p class="ParrafoBloques">Curso práctico, contempla 5 módulos de aprendizaje:Técnicas de Programación, Programación orientada a objetos, Base de datos, Desarrollo de Software y Relaciones Laborales. El programa se centra en el lenguaje de programación Java, que será utilizado
+        <h4 class="ParrafoBloques">2019.</h4>
+        <h5 class="ParrafoBloques esp">Lugar: Gobierno de la ciudad.</h5>
+        <h5 class="ParrafoBloques eng">Location: Gobierno de la ciudad.</h5>
+        <h5 class="ParrafoBloques esp">Duración: Marzo - Diciembre.</h5>
+        <h5 class="ParrafoBloques eng">Duration: Marzo - Diciembre.</h5>
+        <p class="ParrafoBloques esp">Curso práctico, contempla 5 módulos de aprendizaje:Técnicas de Programación, Programación orientada a objetos, Base de datos, Desarrollo de Software y Relaciones Laborales. El programa se centra en el lenguaje de programación Java, que será utilizado
             para exponer estos conceptos y ejercitar en los trabajos prácticos. También se verán aspectos del ámbito laboral para una incorporación exitosa en la industria.
         </p>
+        <p class="ParrafoBloques eng">Practical course, includes 5 learning modules: Programming techniques, Object-oriented Programming, databases, Software development and labor relations. This course is centered on Java language that will use to expose those concepts and make in practical jobs. Also, in this course we have seen laboral ambit aspects to make a better incorporation in the industry.
+        </p>
         <ul>
-            <li type="circle">Tecnologías aplicadas: Java, SQL, MySQL.</li>
+            <li class="esp" type="circle">Tecnologías aplicadas: Java, SQL, MySQL.</li>
+            <li class="eng" type="circle">Used technology: Java, SQL, MySQL.</li>
         </ul>
 
         <h3 class="SubtituloBloques">Desarrollador Front-End Jr: Aprendé Programando</h3>
-        <h4 class="ParrafoBloques">Año 2017.</h4>
-        <h5 class="ParrafoBloques">Lugar: Gobierno de la ciudad.</h5>
-        <h5 class="ParrafoBloques">Duración: Agosto - Diciembre.</h5>
-        <p class="ParrafoBloques">Curso práctico, desarrolle conocimientos acerca de HTML5, CSS3 y Javascript.</p>
+        <h4 class="ParrafoBloques">2017.</h4>
+        <h5 class="ParrafoBloques esp">Lugar: Gobierno de la ciudad.</h5>
+        <h5 class="ParrafoBloques eng">Location: Gobierno de la ciudad.</h5>
+        <h5 class="ParrafoBloques esp">Duración: Agosto - Diciembre.</h5>
+        <h5 class="ParrafoBloques eng">Duration: August - December.</h5>
+        <p class="ParrafoBloques esp">Curso práctico, desarrolle conocimientos acerca de HTML5, CSS3 y Javascript.</p>
+        <p class="ParrafoBloques eng">Practical course, I developed knowledge about HTML5, CSS3 and Javascript.</p>
     </div>
 
     <div class="EstiloDeLosBloques" id="ExperienciaLaboral">
-        <h2 class="TituloBloques">Experiencia laboral</h2>
-        <h3 class="SubtituloBloques">Desarrollador Salesforce</h3>
-        <h4 class="ParrafoBloques">Empresa: Xappia</h4>
-        <h5 class="ParrafoBloques">Lugar: CABA</h5>
-        <h5 class="ParrafoBloques">Fecha de inicio: Enero del 2020 - Actualidad</h5>
-        <p class="ParrafoBloques">Tareas desempeñadas:</p>
-        <p class="ParrafoBloques"> - Componentes Lightning.</p>
+        <h2 class="TituloBloques esp">Experiencia laboral</h2>
+        <h2 class="TituloBloques eng">Work experience</h2>
+
+        <h3 class="SubtituloBloques esp">Desarrollador Salesforce</h3>
+        <h3 class="SubtituloBloques eng">Salesforce developer</h3>
+        <h4 class="ParrafoBloques esp">Empresa: Xappia</h4>
+        <h4 class="ParrafoBloques eng">Company: Xappia</h4>
+        <h5 class="ParrafoBloques esp">Lugar: CABA</h5>
+        <h5 class="ParrafoBloques eng">Location: CABA</h5>
+        <h5 class="ParrafoBloques esp">Enero del 2020 - Actualidad</h5>
+        <h5 class="ParrafoBloques eng">January 2020 - Present</h5>
+        <p class="ParrafoBloques esp">Tareas desempeñadas:</p>
+        <p class="ParrafoBloques eng">Performed tasks:</p>
+        <p class="ParrafoBloques"> - Lightning Web Component.</p>
         <p class="ParrafoBloques"> - Framework Aura.</p>
         <p class="ParrafoBloques"> - Apex.</p>
         <p class="ParrafoBloques"> - Integración con diferentes servicios.</p>
+        <p class="ParrafoBloques"> - Integration with different services.</p>
         <p class="ParrafoBloques"> - TDD.</p>
     </div>
-
 
     <div class="EstiloDeLosBloques clearfix" id="Hobbies">
         <h2 class="TituloBloques">Hobbies</h2>
         <div class="hobbies"><img src="Botin.png">
-            <p>Deporte</p>
+            <p class="esp">Deporte</p>
+            <p class="eng">Sports</p>
         </div>
 
         <div class="hobbies"><img src="Computadora.png">
-            <p>Tecnología</p>
+            <p class="esp">Tecnología</p>
+            <p class="eng">Technology</p>
         </div>
         <div class="hobbies"><img class="" src="Guitarra.png">
-            <p>Música</p>
+            <p class="esp">Música</p>
+            <p class="eng">Music</p>
         </div>
     </div>
 
     <!-- <footer>
 		<p>Realizado por Nicolás Gomez. Año 2019</p>
 	</footer> -->
-    <script src="sticky.js"></script>
+    <!-- <script src="sticky.js"></script> -->
+    <script src="language.js"></script>
 
 </body>
 
